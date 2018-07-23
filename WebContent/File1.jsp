@@ -8,7 +8,7 @@
 </head>
 <body>
 	<jsp:useBean id="bean" class="def.DefClass" scope="page"></jsp:useBean>
-	<jsp:getProperty property="field1" name="bean" />
+	<jsp:setProperty property="field1" name="bean" />
 	<%-- 
 	<jsp:forward page="File2.jsp">
 		<jsp:param value="value" name="name" />
