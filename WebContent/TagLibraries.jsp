@@ -14,5 +14,9 @@
 </head>
 <body>
 
+<!--  JSTL CORE TAGS -->
+<jsp:include page="FormattingTags.jsp"></jsp:include>
+
+
 </body>
 </html>
